@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import quotes from './quotes'; // Assuming you have a quoteData.js file with text and author
 import XIcon from '@mui/icons-material/X';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
@@ -50,6 +50,7 @@ function App() {
       <footer>
         <p>by Jestry98</p>
       </footer>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </div>
   );
 }
